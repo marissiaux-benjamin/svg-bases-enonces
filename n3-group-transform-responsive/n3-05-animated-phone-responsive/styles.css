@@ -1,1 +1,23 @@
 /* Reprenez la feuille de style de l’exercice n2-02-animated-phone, nous allons la compléter pour rendre le téléphone responsive */
+.phone {
+    height: auto;
+    width: 50%;
+}
+
+
+circle {
+    animation: grow 2s infinite;
+    transform-origin: center bottom;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

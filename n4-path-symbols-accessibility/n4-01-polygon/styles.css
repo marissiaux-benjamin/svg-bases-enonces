@@ -3,3 +3,6 @@
 - des jointures de ligne arrondies ;
 - un remplissage de couleur #008B6F
 */
+.triangle{
+    stroke: #00b3ff;
+}
